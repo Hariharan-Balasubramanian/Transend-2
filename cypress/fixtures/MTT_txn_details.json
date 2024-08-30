@@ -1,0 +1,21 @@
+{
+    "txnCurr": "CNY",
+    "txnAmt": 1500.00,
+    "dbCurr": "HKD",
+    "sndName": "Hariharan",
+    "sndAccno": "001935993",
+    "sendoripayerName": "HKMSO4536345233",
+    "sendoripayerID": "Hariharan",
+    "sendoripayeradd1": "TT",
+    "sendoripayeradd2": "TT",
+    "sendoripayeradd3": "TT",
+
+    "receiverName": "SureshKumar",
+    "receiverAccno": "001935993",
+    "ReceiverSwiftCode": "DBSSHKHHXXX",
+    "ReceiverAddress1": "UU",
+    "ReceiverAddress2": "UU",
+    "ReceiverAddress3": "UU",
+
+    "Email" : "hariharan@gmail.com"
+}
