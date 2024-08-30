@@ -1,8 +1,8 @@
 class MandatoryValidation {
     //Transaction Info
-    TransInfoStart = "validation-message[propertyname="
-    TransInfoEnd = "]>div>span"
-    eletranscurrvali = this.TransInfoStart + 'Transaction Currency' + this.TransInfoEnd;
+    TransInfoStart = 'validation-message[propertyname="';
+    TransInfoEnd = '"]>div>span';
+    eletranscurrvali = this.TransInfoStart + "Transaction Currency" + this.TransInfoEnd;
     eletransamtvali = this.TransInfoStart + 'Transaction Amount' + this.TransInfoEnd;
     eledebitcurrvali = this.TransInfoStart + 'Debit Currency' + this.TransInfoEnd;
 
@@ -130,7 +130,6 @@ class MandatoryValidation {
 
                     //cy.contains("Payment Purpose Type is required.").should('not.exist');
                 });
-                cy.reload();
             })
     }
 }
