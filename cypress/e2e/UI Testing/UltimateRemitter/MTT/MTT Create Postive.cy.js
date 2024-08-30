@@ -1,6 +1,6 @@
-import Login from "../../../PageObjects/LoginPage";
-import ultimateRemitter from "../../../PageObjects/Navigation MTT/ultimateRemitter";
-import createtranMTT from "../../../PageObjects/MTT/CreateTransaction";
+import Login from "../../../../PageObjects/LoginPage";
+import ultimateRemitter from "../../../../PageObjects/Navigation UR/ultimateRemitter";
+import createtranMTT from "../../../../PageObjects/MTT/CreateTransaction";
 
 describe('Ultimate Remitter - MTT', () => {
     beforeEach('Login Process', () => {
