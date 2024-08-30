@@ -144,17 +144,17 @@ class createtranMTT {
     // Save Transaction
     btnsave = "app-ultimate-remitter-transaction>form>div:nth-of-type(6)>div>div>button";
     saveTran() {
-        // const invalid = cy.contains('not valid.').should('be.visible');
-        // const required = cy.contains('is required.').should('be.visible');
-        const notinvalid = cy.contains('not valid.').should('not.be.visible');
-        const notrequired = cy.contains('is required.').should('not.be.visible');
-        if (invalid && required) {
+        const invalid = cy.contains('not valid.').should('be.visible');
+        //const required = cy.contains('is required.').should('be.visible');
+        //const notinvalid = cy.contains('not valid.').should('not.be.visible');
+        //const notrequired = cy.contains('is required.').should('not.be.visible');
+        //if (invalid || required) {
             //Save Button
-            cy.log("MTT transaction not created");
-        } else {
+            //cy.log("MTT transaction not created");
+        //} else {
             cy.get(this.btnsave).click();
-            cy.log("MTT transaction successfully created");
-        }
+            //cy.log("MTT transaction successfully created");
+        //}
     }
 }
 export default createtranMTT;
